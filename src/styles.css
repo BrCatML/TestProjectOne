@@ -1,0 +1,40 @@
+.App {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin: 0 32px;
+  }
+  
+  .Fact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Fact_Text {
+    background: lightgray;
+    padding: 16px;
+    font-family: monospace;
+    width: 100%;
+  }
+  
+  .History {
+    width: 100%;
+  }
+  
+  .History_List {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: smaller;
+    color: gray;
+  }
+  
+  [aria-busy="true"] {
+    pointer-events: none;
+    cursor: progress;
+    opacity: 0.5;
+  }
+  
