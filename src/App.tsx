@@ -24,12 +24,9 @@ export default function App() {
   return (
     <div className="App">
       <h1>Cat Facts</h1>
-      <h2>Что-то возможно новое о кошках, на английском языке. Понимай как хочешь.</h2>
       <CatFact busy={busy} fact={fact} onClickNext={handleNext} />
-      <p>а тут могла быть ваша реклама</p>
       <RecentFacts onToggle={handleToggle} open={open} facts={recent} />
       <Activity busy={busyAct} type={type} activity={activity} onClickNext={handleNextAct} />
-
     </div>
   );
 }
